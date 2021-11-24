@@ -1,0 +1,9 @@
+{
+    "name": "aula002/finalprro",
+    "autoload": {
+        "psr-4": {
+            "Aula002\\Finalprro\\": "src/"
+        }
+    },
+    "require": {}
+}
