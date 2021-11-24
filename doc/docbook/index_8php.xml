@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index_8php" xml:lang="en-US">
+<title>C:/xampp/htdocs/finalprro/src/index.php File Reference</title>
+<indexterm><primary>C:/xampp/htdocs/finalprro/src/index.php</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_index_8php_1a12661b2fc0f57f97e30a1620889ce9c6">$method</link> = $_SERVER[&quot;REQUEST_METHOD&quot;]</para>
+</listitem>
+            <listitem><para><link linkend="_index_8php_1acf215f34a917d014776ce684a9ee8909">$url</link> = $_GET[&quot;url&quot;]</para>
+</listitem>
+            <listitem><para><link linkend="_index_8php_1ad77f00d881c7c3dc8bd1749c7174de92">$router</link> = new Router($method, $url)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_index_8php_1a12661b2fc0f57f97e30a1620889ce9c6"/><section>
+    <title>$method</title>
+<indexterm><primary>$method</primary><secondary>index.php</secondary></indexterm>
+<indexterm><primary>index.php</primary><secondary>$method</secondary></indexterm>
+<para><computeroutput>$method = $_SERVER[&quot;REQUEST_METHOD&quot;]</computeroutput></para></section>
+<anchor xml:id="_index_8php_1ad77f00d881c7c3dc8bd1749c7174de92"/><section>
+    <title>$router</title>
+<indexterm><primary>$router</primary><secondary>index.php</secondary></indexterm>
+<indexterm><primary>index.php</primary><secondary>$router</secondary></indexterm>
+<para><computeroutput>$router = new Router($method, $url)</computeroutput></para></section>
+<anchor xml:id="_index_8php_1acf215f34a917d014776ce684a9ee8909"/><section>
+    <title>$url</title>
+<indexterm><primary>$url</primary><secondary>index.php</secondary></indexterm>
+<indexterm><primary>index.php</primary><secondary>$url</secondary></indexterm>
+<para><computeroutput>$url = $_GET[&quot;url&quot;]</computeroutput></para></section>
+</section>
+</section>
